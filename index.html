@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script type="module" src="../node_modules/xturtle/index.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div>
+      <div>
+        <x-turtle
+          id='canvas'
+          width='600'
+          height='550'
+          canvas-class="canvas"
+          sprite-scale="0.2"></x-turtle>
+      </div>
+      <div style="position: absolute;margin-top: 564px;display: inline-grid;">
+        <h3>Type here</h3>
+        <textarea id="textArea" style="width: 600px;height: 200px;">turtle = document.getElementById('canvas').createTurtle()</textarea>
+        <button id="myButton">Run</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    document.getElementById("myButton").addEventListener("click", function(){
+      eval(document.getElementById("textArea").value)
+    });
+  </script>
+</html>
