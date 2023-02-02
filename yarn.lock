@@ -37,9 +37,9 @@ util@^0.10.3:
   dependencies:
     inherits "2.0.3"
 
-xturtle@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/xturtle/-/xturtle-1.0.0.tgz#29b45bb2e235177fb05ff100f7d18caaba2102ef"
-  integrity sha512-kCSzzVUfpjpmMiFB76i9zFu9YIhFRBVryKh+TF5N2n84Lzjwq52jXFlNKZVurM1YfGS4jfiv1VJ8yQHGCmIQgQ==
+xturtle@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/xturtle/-/xturtle-1.1.0.tgz#5efdd3423d31fd0bd12e846a4ec92968ae0c9899"
+  integrity sha512-cO/JBJgPjk4K/afrJFDTn9tNQAkU/VYWgz+2tnd1SYG2gdwPFmZ4Mems95wlvyqqA+F5rWgSqBtjhEVN/w4m2g==
   dependencies:
     http "^0.0.1-security"
